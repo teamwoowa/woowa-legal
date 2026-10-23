@@ -1,0 +1,32 @@
+# On That Note privacy-policy review
+
+**Review only. Not an effective or published privacy policy.**
+
+This folder contains separate On That Note documents. It does not replace or change any files or public URLs in the separate teamwoowa/justbalance-legal repository.
+
+- [English privacy-policy draft](PRIVACY_POLICY_DRAFT_EN.md)
+- [Korean policy and implementation review](PRIVACY_POLICY_REVIEW.md)
+- [Verified local implementation scopes and remaining gates](IMPLEMENTATION_STATUS.md)
+
+## Intended scope
+
+On That Note is an Android-first rhythm game by Woowa. The initial distribution plan is English only in English-speaking markets, followed by market research, localization and regional validation before expansion. No login account is required to play. Pseudonymous leaderboard identifiers must not be described as irreversibly anonymous.
+
+The current main review build does not have production ads, billing or a public leaderboard connection enabled. A reward-ad unit, D1 schema and an inaccessible preparatory Worker have been prepared separately with owner approval. Production/preview URLs, custom routes, cron execution and the privacy feature remain off; no game-user records have been created. Provisioning is not proof of released-game integration or GDPR compliance.
+
+## Do not merge or publish as an operative policy yet
+
+Before publishing an effective policy or using its URL in AdMob / Google Play:
+
+- [ ] Confirm the actual controller identity and appropriate public contact/address details.
+- [ ] Implement and verify retention criteria, installation-authenticated data requests/deletion, cache cleanup and backup-restore deletion handling. Do not collect a new login or email merely to enable deletion.
+- [ ] Verify the final SDK, recipients, processing locations, agreements and transfer safeguards.
+- [ ] Confirm the audience, consent-age treatment and matching store declarations.
+- [ ] Match the policy to the actual release binary, UMP options, leaderboard transmission timing and Play Data safety answers.
+- [ ] Obtain owner review before creating the effective public legal page.
+
+The new teamwoowa/woowa-legal repository is the shared destination for app-specific legal documents. No Pages deployment, production policy URL, ad-consent message or game release is changed by this review. Isolated deletion, main Settings and backend candidates have been implemented and tested within the linked scopes. They are not active in the installed game or a deployed public service.
+
+Privacy contact: team.woowa@gmail.com
+
+Review date: 2026-10-23. This is a product/technical review, not legal certification.
