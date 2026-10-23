@@ -46,7 +46,9 @@ If activated, the planned leaderboard uses Cloudflare Workers and D1. Support me
 We do not publish private installation credentials, email correspondence, payment tokens or raw replay inputs on a leaderboard. [Before publication: verify the final providers, their roles, applicable data-processing terms, international-transfer safeguards and processing locations. Do not claim that all data stays in Germany or the EU; the created D1 database was not configured with an EU jurisdiction restriction.]
 
 ## 7. Retention and security
-[Before publication: insert implemented periods or objective retention criteria for incomplete tickets, completed validation results, published scores, advertising/purchase evidence, support correspondence and backups. The current ranking candidate has no general retention limit for completed results or published entries.]
+[Proposed candidate defaults, NOT yet an effective release policy: public ranking entries are excluded after 365 days; linked validation evidence is kept while a surviving entry requires it; unlinked completed validation evidence is eligible for cleanup after 30 days from issue; incomplete tickets are eligible after expiry plus 24 hours. Bounded cleanup can leave a physical backlog even after public exclusion. Support, advertising/purchase evidence and backup periods still require final operational rules. These defaults have been implemented and locally tested only in an isolated server candidate, not enabled in the live game/service.]
+
+The isolated deletion design retains a minimal hash of a revoked installation credential, its revocation timestamp and a pending-cleanup flag to stop old requests from recreating deleted records. The current candidate does not expire this security record. It must not be described as complete erasure or anonymous data; necessity, lawful basis, retention criteria and backup handling must be reviewed before release.
 
 A top-ten display is not a promise that only ten records are stored. Removing an item from the displayed top ten does not necessarily delete the underlying record.
 
@@ -57,7 +59,7 @@ For privacy questions, access, correction, deletion, restriction, portability wh
 
 We may need proportionate information to locate your records and confirm that you are entitled to act on them. A nickname alone may not distinguish you from another player. Do not email secret installation credentials. We do not require account registration simply to contact us about privacy.
 
-[Before publication: implement and describe an authenticated installation-based request/deletion route, with a safe alternative process for lost installations. The current candidate has no user deletion API. Do not advertise a nonexistent Delete records button.]
+[Before publication: connect and verify the installation-authenticated request/deletion flow in the released app and deployed service, including safe recovery for interrupted local cache cleanup and a proportionate process for lost installations. An isolated server API, diagnostic English panel and actual Godot-to-local-D1 flow have been tested. They are not yet a production feature. Do not advertise a Delete records button in the current installed game.]
 
 Clearing app storage through your device's settings removes local app data, subject to your device/platform backup and restore behaviour. It does not by itself delete server leaderboard records or Google's independent payment records. Losing local installation data may prevent automatic proof of ownership or recovery.
 

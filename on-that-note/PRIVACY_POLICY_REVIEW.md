@@ -1,5 +1,15 @@
 # On That Note 개인정보 정책 리뷰
 
+## 실제 구현 후속 · 2026-10-23
+
+별도 서버 수명 후보 revision2에서 기본51조건·독립 검토 수정27조건·TypeScript 검사를 통과했다. 인증 export와 명시 삭제·즉시 공개 제외·경쟁 재삽입 trigger 보호, 최대100키 수거 cursor를 구현했다. 실제 Godot와 로컬 D1 왕복은18개 클라이언트 조건 및12개 Node 사후검사로125개 점수/130개 검증 기록의 페이지 조회·두 단계 삭제·다른 owner 보존·옛 식별값 거부를 확인했다. 클라이언트의 최신 lease/실제 진단 패널/파일선택 경계는 별도39조건을 통과했다. 원74조건과5조건은 앞 revision의 보조 증거로 보존하며 최신 소스 전수 재실행으로 합산하지 않는다.
+
+이것은 본편/Android/공개 HTTPS 통합 검수가 아니다. 설치 v95 APK 자체의4게임12곡36모드·40JSON/296packed code-data를 실제 카탈로그와 대조했고 현재 소스의18파일 차이도 분리했다. 현재 소스는 실행 원장의 v95 이후 개발 후보와 구분하며 덮어쓰지 않았다. 서버의 보안 revocation 해시·시각·pending은 현 후보에서 무기한 남으므로 모든 개인정보 삭제 완료라고 하지 않는다. 독립 복구 ledger, 공개 board/rank 비용 상한, 본편 cache owner·삭제완료 재시작, 운영정책/법적 고지는 여전히 게이트다. 아래의 API 부재·보관기한 미구현 설명은 canonical/live 경계에 대한 최초 검토이며 신규 격리 후보의 구현을 부정하는 뜻이 아니다.
+
+## 최신 GitHub 위치
+
+2026-10-23 사용자 승인으로 공용 저장소 [teamwoowa/woowa-legal](https://github.com/teamwoowa/woowa-legal)을 생성하고 게임 전용 문서를 [Draft PR #1](https://github.com/teamwoowa/woowa-legal/pull/1)로 이전했다. 기존 justbalance-legal PR #3은 이전 안내와 함께 미병합으로 닫았다. 기존 잔고 저장소/법적 안내 URL은 유지한다. 새 운영 개인정보 정책/Pages는 아직 게시하지 않았다. 아래의 외부 저장소 미수정·commit 없음 설명은 이 이전 전의 검토 관측이다.
+
 검토일: 2026-10-23. 법률 자문·GDPR 인증이 아닌 공식 정책 및 현재 소스 대조다. 런타임·운영 DB·기존 잔고 사이트는 변경하지 않았다.
 
 ## 결론
@@ -17,7 +27,7 @@
 
 ## 잔고 정책에서 재사용할 것
 - 개발자 표시 Woowa, 문의처 team.woowa@gmail.com, 수집/목적/근거/제공자/보관/권리/문의의 구성. 표시명 Woowa와 법적 controller 신원은 같은 문제로 단정하지 않는다.
-- 공개 GitHub Pages 정적 HTML 방식. 게임 안내는 별도 경로/저장소로 분리하며 기존 잔고 정책을 덮어쓰지 않는다. 영어 원문을 우선하며 검토용 한국어 설명은 분리한다. 이 문서는 게임 전용 폴더의 검토 브랜치·PR로만 관리하고 실제 Pages 정책 게시와 구분한다.
+- 공개 GitHub Pages 정적 HTML 방식. 게임 안내는 별도 경로/저장소로 분리하며 기존 잔고 정책을 덮어쓰지 않는다. 영어 원문을 우선하며 검토용 한국어 설명은 분리한다. 아직 저장소 생성·commit·Pages 게시 없음.
 - 비밀번호·인증 값/구매 토큰을 이메일로 받지 않는 문의 원칙. 개인정보 권리 요청은 원칙적으로 지체 없이1개월 이내 대응한다. 기존30일 문구를 GDPR 법정 표현으로 그대로 복제하지 않는다.
 
 ## 그대로 복사하면 안 되는 항목
@@ -48,8 +58,8 @@
 5. 공개 문서 최종 소유자 확인·게시 승인. 누락된 값을 만들어 채우거나 기존 잔고 정책을 변경하지 않는다.
 
 ## 산출물
-- [PRIVACY_POLICY_DRAFT_EN.md](PRIVACY_POLICY_DRAFT_EN.md): 미게시 영어 검토 초안. 미래 기능을 현재 운영 사실로 쓰지 않으며 미확정 항목을 표시.
-- 개발 프로젝트의 SOURCE_REFERENCES.json: 실제 소스 줄 근거(이 공개 문서 묶음에는 포함하지 않음).
+- docs/release/PRIVACY_POLICY_DRAFT_EN.md: 미게시 영어 검토 초안. 미래 기능을 현재 운영 사실로 쓰지 않으며 미확정 항목을 표시.
+- work/privacy-policy-review-v1/SOURCE_REFERENCES.json: 실제 소스 줄 근거.
 
 ## 공식 출처 / 기존 비교 문서
 - Google Play User Data: https://support.google.com/googleplay/android-developer/answer/10144311?hl=en
