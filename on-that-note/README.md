@@ -6,6 +6,7 @@ This folder contains separate On That Note documents. It does not replace or cha
 
 - [English privacy-policy draft](PRIVACY_POLICY_DRAFT_EN.md)
 - [Korean policy and implementation review](PRIVACY_POLICY_REVIEW.md)
+- [Verified local implementation scopes and remaining gates](IMPLEMENTATION_STATUS.md)
 
 ## Intended scope
 
@@ -24,7 +25,7 @@ Before publishing an effective policy or using its URL in AdMob / Google Play:
 - [ ] Match the policy to the actual release binary, UMP options, leaderboard transmission timing and Play Data safety answers.
 - [ ] Obtain owner review before creating the effective public legal page.
 
-The new teamwoowa/woowa-legal repository is the shared destination for app-specific legal documents. No Pages deployment, production policy URL, ad-consent message or game release is changed by this review. There is no claim that a data-deletion button, public server or ad provider is already implemented.
+The new teamwoowa/woowa-legal repository is the shared destination for app-specific legal documents. No Pages deployment, production policy URL, ad-consent message or game release is changed by this review. Isolated deletion, main Settings and backend candidates have been implemented and tested within the linked scopes. They are not active in the installed game or a deployed public service.
 
 Privacy contact: team.woowa@gmail.com
 

@@ -52,14 +52,14 @@ The isolated deletion design retains a minimal hash of a revoked installation cr
 
 A top-ten display is not a promise that only ten records are stored. Removing an item from the displayed top ten does not necessarily delete the underlying record.
 
-Online private data must be transmitted over HTTPS. Access to backend administration must be restricted. Backup restoration must preserve prior deletion decisions rather than silently republish deleted records. [Release validation pending; do not treat these required safeguards as proof that the online service is already operational.]
+Online private data must be transmitted over HTTPS. Access to backend administration must be restricted. Backup restoration must preserve prior deletion decisions rather than silently republish deleted records. An isolated restoration tool uses a separately retained revocation ledger and an external integrity pin; this is another security-related data copy, not proof of anonymous processing. Its custody and retention require an approved operational rule. [Operational cutover and release validation remain pending; do not treat these candidate safeguards as proof that the online service is already operational.]
 
 ## 8. Delete records and exercise your rights without an account
 For privacy questions, access, correction, deletion, restriction, portability where applicable, objections or consent withdrawal, contact **team.woowa@gmail.com**. You do not need to reinstall the app to contact us. We aim to respond without undue delay and, as a rule, within one month; if a lawful extension applies, we will explain it within the initial period.
 
 We may need proportionate information to locate your records and confirm that you are entitled to act on them. A nickname alone may not distinguish you from another player. Do not email secret installation credentials. We do not require account registration simply to contact us about privacy.
 
-[Before publication: connect and verify the installation-authenticated request/deletion flow in the released app and deployed service, including safe recovery for interrupted local cache cleanup and a proportionate process for lost installations. An isolated server API, diagnostic English panel and actual Godot-to-local-D1 flow have been tested. They are not yet a production feature. Do not advertise a Delete records button in the current installed game.]
+[Before publication: connect and verify the installation-authenticated request/deletion flow in the released app and deployed service, including safe recovery for interrupted local cache cleanup and a proportionate process for lost installations. The isolated server API, English diagnostic panel, copied real ranking-cache owner and Godot-to-local-D1 deletion after response loss and restart have been tested. These are not a production feature. Main Settings integration, production storage, new/legacy profiles, Android and operational HTTPS still require validation. Do not advertise a Delete records button in the current installed game.]
 
 Clearing app storage through your device's settings removes local app data, subject to your device/platform backup and restore behaviour. It does not by itself delete server leaderboard records or Google's independent payment records. Losing local installation data may prevent automatic proof of ownership or recovery.
 
