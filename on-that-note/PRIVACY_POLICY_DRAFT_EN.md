@@ -41,7 +41,7 @@ Local processing supports settings, progress and gameplay. Online score verifica
 [Before publication: confirm the processing-specific legal bases. Proposed analysis: consent for optional public score publication and processing requiring consent; contract necessity only for processing objectively necessary to provide the requested service; legitimate interests for proportionate security after an interests assessment. A privacy-policy acknowledgement is not blanket consent.]
 
 ## 6. Who receives data and where
-If activated, the planned leaderboard uses Cloudflare Workers and D1. Support messages sent to the contact email are handled through Gmail. Optional advertisements and payments use the Google services described above. Public leaderboard rows are visible to other players.
+A preparatory Cloudflare Workers/D1 backend exists with public URLs/routes and Worker scheduled processing disabled. It is not connected to the current review game. If the online leaderboard is activated, those services will process the ranking data described above. Support messages sent to the contact email are handled through Gmail. Optional advertisements and payments use the Google services described above. Public leaderboard rows are visible to other players.
 
 We do not publish private installation credentials, email correspondence, payment tokens or raw replay inputs on a leaderboard. [Before publication: verify the final providers, their roles, applicable data-processing terms, international-transfer safeguards and processing locations. Do not claim that all data stays in Germany or the EU; the created D1 database was not configured with an EU jurisdiction restriction.]
 

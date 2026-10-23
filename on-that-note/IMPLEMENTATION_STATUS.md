@@ -2,6 +2,15 @@
 
 **Unpublished review status, 23 October 2026. Not an effective privacy policy, deployed feature, or GDPR certification.**
 
+## Owner-approved private platform preparation
+
+After the earlier local-only review, the owner explicitly approved minimal-scope OAuth/keyring setup, migrations in the existing empty D1, and an inaccessible preparation Worker. These actions are now complete; earlier no-remote-change receipts remain historical evidence, not current provisioning status.
+
+- Windows encrypted credential storage verified. Minimal user/account read, Workers Scripts write, D1 write and required background access only.
+- Three D1 migrations applied; all three recorded in platform migration history and four revocation triggers present. Runs, score entries, revocations and serving receipts remain zero.
+- New Worker uploaded and its stored version verified. Dashboard confirms production/preview URLs off, no custom domains/routes and no cron/queue/email triggers. Feature flag remains false and external serving expectations remain unset.
+- Workers Free current plan confirmed; no plan upgrade, public activation, real-user processing or installed-app change performed. This is not operational HTTPS or released-game integration verification.
+
 ## Verified local scopes
 
 - Isolated server lifecycle revision2: TypeScript,51 baseline conditions and27 targeted corrections passed. Installation-authenticated export/deletion, immediate public exclusion, revocation triggers, bounded retention cleanup and independent cursors are implemented in a candidate.
@@ -36,7 +45,7 @@ Only2 Expert tracks are eligible in the captured APK: last_can_home and peg_and_
 - Self-service export is deliberately bounded to10pages/128KiB and can fail closed for larger requests. A proportionate alternative rights/support process must be operational without asking people to email secret installation credentials.
 - Quiescence, external-ledger freshness/pin custody, fresh cutover epoch and real Cloudflare account/binding are operator responsibilities, not proven by local booleans.
 - Final ads/Billing/UMP/provider inventory, audience/consent-age/store declarations and owner/legal review. The v95 first-launch AudioTrack SIGSEGV remains independent.
-- Wrangler CLI is not authenticated. No remote migration, Worker deployment, operational HTTPS test or installed-app change was performed.
+- Wrangler authentication and disabled private provisioning are complete as described above. Public/operational HTTPS and installed-app integration remain unverified. No serving gate has been opened and no real-user record has been created.
 
 ## Publication status
 
