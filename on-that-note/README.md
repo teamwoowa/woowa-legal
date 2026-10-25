@@ -1,32 +1,21 @@
 # On That Note privacy-policy review
 
-**Review only. Not an effective or published privacy policy.**
+**UNPUBLISHED RELEASE CANDIDATES. Not an effective privacy policy.** Do not merge this Draft PR or submit these draft URLs to AdMob/Google Play before the [release gates](INTERNAL_GATES.md) are resolved.
 
-This folder contains separate On That Note documents. It does not replace or change any files or public URLs in the separate teamwoowa/justbalance-legal repository.
+## Current review scope (25 October 2026)
 
-- [English privacy-policy draft](PRIVACY_POLICY_DRAFT_EN.md)
-- [Korean policy and implementation review](PRIVACY_POLICY_REVIEW.md)
-- [Verified local implementation scopes and remaining gates](IMPLEMENTATION_STATUS.md)
+The intended release is ages 13+, Korean/Japanese/English, four rhythm games and the current twelve songs. Existing app login is not required. BM v2 includes a manually activated 600-second welcome pass, a verified 305-second rewarded-ad pass, four EUR1.49 game packs and a EUR3.99 current-content bundle. Actual local prices come from Play. These are intended product choices, not a claim that ads, billing, analytics or push are live.
 
-## Intended scope
+## Latest policy and operator candidates
 
-On That Note is an Android-first rhythm game by Woowa. The initial distribution plan is English only in English-speaking markets, followed by market research, localization and regional validation before expansion. No login account is required to play. Pseudonymous leaderboard identifiers must not be described as irreversibly anonymous.
+- Privacy: [English](PRIVACY_POLICY_DRAFT_EN.md), [Korean](PRIVACY_POLICY_DRAFT_KO.md), [Japanese](PRIVACY_POLICY_DRAFT_JA.md).
+- Operator notice: [English](OPERATOR_NOTICE_DRAFT_EN.md), [Korean](OPERATOR_NOTICE_DRAFT_KO.md), [Japanese](OPERATOR_NOTICE_DRAFT_JA.md).
+- [Unresolved release gates](INTERNAL_GATES.md). Translations remain review candidates.
 
-The current main review build does not have production ads, billing or a public leaderboard connection enabled. A reward-ad unit, D1 schema and an inaccessible preparatory Worker have been prepared separately with owner approval. Production/preview URLs, custom routes, cron execution and the privacy feature remain off; no game-user records have been created. Provisioning is not proof of released-game integration or GDPR compliance.
+## Historical evidence
 
-## Do not merge or publish as an operative policy yet
+[Implementation status](IMPLEMENTATION_STATUS.md) and [earlier policy review](PRIVACY_POLICY_REVIEW.md) preserve earlier observations. Their old English-only launch assumptions and earlier console status do not override the current product decisions or prove final runtime acceptance.
 
-Before publishing an effective policy or using its URL in AdMob / Google Play:
+## Hosting boundary
 
-- [ ] Confirm the actual controller identity and appropriate public contact/address details.
-- [ ] Implement and verify retention criteria, installation-authenticated data requests/deletion, cache cleanup and backup-restore deletion handling. Do not collect a new login or email merely to enable deletion.
-- [ ] Verify the final SDK, recipients, processing locations, agreements and transfer safeguards.
-- [ ] Confirm the audience, consent-age treatment and matching store declarations.
-- [ ] Match the policy to the actual release binary, UMP options, leaderboard transmission timing and Play Data safety answers.
-- [ ] Obtain owner review before creating the effective public legal page.
-
-The new teamwoowa/woowa-legal repository is the shared destination for app-specific legal documents. No Pages deployment, production policy URL, ad-consent message or game release is changed by this review. Isolated deletion, main Settings and backend candidates have been implemented and tested within the linked scopes. They are not active in the installed game or a deployed public service.
-
-Privacy contact: team.woowa@gmail.com
-
-Review date: 2026-10-23. This is a product/technical review, not legal certification.
+GitHub Pages serves main/root only. This review branch is not the Pages source. The public site currently hosts the shared repository introduction, not these policy candidates. Existing JustBalance repository files and public URLs remain unchanged.
