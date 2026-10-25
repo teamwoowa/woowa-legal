@@ -19,3 +19,7 @@ The intended release is ages 13+, Korean/Japanese/English, four rhythm games and
 ## Hosting boundary
 
 GitHub Pages serves main/root only. This review branch is not the Pages source. The public site currently hosts the shared repository introduction, not these policy candidates. Existing JustBalance repository files and public URLs remain unchanged.
+
+## Owner-approved lifecycle follow-up
+
+While-entitled encrypted purchase-token retention and non-exclusive multiple-device restoration are approved principles. Support cleanup is90days after resolution; minimal security/revocation proof remains until old credentials/backup replay cannot recreate deleted data, with90day necessity review by Woowa. These may involve years, are app-scoped, and do not certify actual cleanup, backup erasure, legal compliance or final runtime. See the updated privacy candidates and release gates. Public root app-ads.txt has been prepared independently; that is not policy publication or AdMob serving approval.
